@@ -22,7 +22,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="cc" value="/* $END$ */" description="/**/" toReformat="false" toShortenFQNames="true">
+  <template name="cc" value="/** $END$ */" description="/** */" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
@@ -66,6 +66,12 @@
   </template>
   <template name="yaa" value="\Yii::$app-&gt;$END$" description="\Yii::$app-&gt;$END$" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="TD" value="//TODO: $END$" description="// TODO:" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
