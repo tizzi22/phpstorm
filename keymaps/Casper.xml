@@ -38,6 +38,8 @@
   <action id="EditorSelectWord" />
   <action id="FileChooser.GotoDesktop" />
   <action id="GotoNextError" />
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
   <action id="PublishGroup.Download">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
@@ -83,6 +85,9 @@
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
