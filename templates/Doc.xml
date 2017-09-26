@@ -1,0 +1,22 @@
+<templateSet group="Doc">
+  <template name="a" value="@author Rusavskiy Vitaliy &lt;rusavskiy.v@bintime.com&gt;" description="author" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="d" value="@date $DATE$" description="Date" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c" value="@author Rusavskiy Vitaliy &lt;rusavskiy.v@bintime.com&gt;&#10;* @date $DATE$" description="author &amp;&amp; Date" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

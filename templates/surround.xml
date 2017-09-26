@@ -1,0 +1,40 @@
+<templateSet group="surround">
+  <template name="B" value="{$SELECTION$}" description="{...}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="I" value="for ($VAR$ in $SELECTION$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="dartSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="()" value="($SELECTION$)" description="(...)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="__" value="_$SELECTION$_" description="_..._" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="''" value="'$SELECTION$'" description="'...'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="{}" value="{$SELECTION$}" description="{...}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="&quot;&quot;" value="&quot;$SELECTION$&quot;" description="&quot;... &quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="[]" value="[$SELECTION$]" description="[...]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,46 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.tpl" />
+    <recentFileMasks>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.php,</mask>
+      <mask>*.php,*</mask>
+      <mask>*.php,*.</mask>
+      <mask>*.php,*.t</mask>
+      <mask>*.php,*.tp</mask>
+      <mask>*.php,*.tpl</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.sass</mask>
+      <mask>*.sas</mask>
+      <mask>*.sa</mask>
+      <mask>*.s</mask>
+      <mask>*.c</mask>
+      <mask>*.cs</mask>
+      <mask>*.css</mask>
+      <mask>*.tm</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.tmp</mask>
+      <mask>*.php</mask>
+      <mask>*.t</mask>
+      <mask>*.tp</mask>
+      <mask>*.tpl</mask>
+    </recentFileMasks>
+  </component>
+</application>

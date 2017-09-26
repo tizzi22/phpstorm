@@ -1,0 +1,14 @@
+<templateSet group="Text">
+  <template name="cam" value="$RES$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="RES" expression="underscoresToCamelCase(snakeCase(clipboard()))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$cam" value="$$$RES$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="RES" expression="underscoresToCamelCase(snakeCase(clipboard()))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

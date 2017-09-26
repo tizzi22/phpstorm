@@ -1,0 +1,51 @@
+<toolSet name="External Tools">
+  <tool name="deploy w1" description="deploy w1" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer" />
+      <option name="PARAMETERS" value=" deploy w1" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/www/protected/vendor/bin" />
+    </exec>
+  </tool>
+  <tool name="deploy w2" description="deploy w2" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer" />
+      <option name="PARAMETERS" value=" deploy w2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/www/protected/vendor/bin" />
+    </exec>
+  </tool>
+  <tool name="deploy aws preprod" description="deploy aws preprod" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer.phar" />
+      <option name="PARAMETERS" value=" deploy preprod -vv" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/deployer" />
+    </exec>
+  </tool>
+  <tool name="composer update" description="composer update" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="composer" />
+      <option name="PARAMETERS" value="update --verbose --prefer-dist --optimize-autoloader --ignore-platform-reqs" />
+      <option name="WORKING_DIRECTORY" value="/$ProjectFileDir$/" />
+    </exec>
+  </tool>
+  <tool name="deploy aws fpm01" description="deploy aws fpm01" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer" />
+      <option name="PARAMETERS" value=" deploy prod1" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/www/protected/vendor/bin/" />
+    </exec>
+  </tool>
+  <tool name="deploy aws fpm02" description="deploy aws fpm02" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer" />
+      <option name="PARAMETERS" value=" deploy prod2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/www/protected/vendor/bin" />
+    </exec>
+  </tool>
+  <tool name="deploy aws" description="deploy aws" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./deployer.phar" />
+      <option name="PARAMETERS" value=" deploy aws -p -vv" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/deployer" />
+    </exec>
+  </tool>
+</toolSet>

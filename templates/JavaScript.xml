@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="coi" value="console.info('$buf$',$buf$);" description="console.info();" toReformat="false" toShortenFQNames="true">
+    <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

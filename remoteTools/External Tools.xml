@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="composer update work1" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="c6ac0984-10e3-4d44-a460-371902befd33">
+    <exec>
+      <option name="COMMAND" value="./composer.phar" />
+      <option name="PARAMETERS" value="update" />
+      <option name="WORKING_DIRECTORY" value="~/work1/current/" />
+    </exec>
+  </tool>
+  <tool name="composer install work2" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="c6ac0984-10e3-4d44-a460-371902befd33">
+    <exec>
+      <option name="COMMAND" value="./composer.phar" />
+      <option name="PARAMETERS" value="install" />
+      <option name="WORKING_DIRECTORY" value="~/work2/current/" />
+    </exec>
+  </tool>
+  <tool name="composer update preprod" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="381830a2-8c2c-4103-bf19-61876ea8d0a2">
+    <exec>
+      <option name="COMMAND" value="./composer.phar" />
+      <option name="PARAMETERS" value="update" />
+      <option name="WORKING_DIRECTORY" value="/home/erp/site" />
+    </exec>
+  </tool>
+  <tool name="php5-fpm reload" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="false" CONNECTION_TYPE="NONE">
+    <exec>
+      <option name="COMMAND" value="echo &quot;*963.0.&quot; | sudo -S /etc/init.d/php5-fpm reload" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

@@ -1,0 +1,31 @@
+<templateSet group="smarty">
+  <template name="{t" value="{t text=&quot;$END$&quot; cat=&quot;$END$&quot;}" description="{t text=&quot;$END$&quot; cat=&quot;$END$&quot;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="{$$$buf$}" description="{$$$buf$}" toReformat="false" toShortenFQNames="true">
+    <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sc" value="{$$smarty.capture.$buf$}" description="{$$smarty.capture.$buf$}" toReformat="false" toShortenFQNames="true">
+    <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="prt" value="&lt;pre&gt;{print_r($$$buf$)}&lt;/pre&gt;" description="prt" toReformat="false" toShortenFQNames="true">
+    <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+  </template>
+  <template name="dm" value="&#10;{varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$')}" description="varDumperCasper" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITERABLE_COPY" expression="snakeCase(ITERABLE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

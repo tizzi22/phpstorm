@@ -1,0 +1,9 @@
+<inspections profile_name="CMS" version="1.0">
+  <description>A coding standard for Gepard development team</description>
+  <option name="myName" value="CMS" />
+  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="CODING_STANDARD" value="Custom" />
+    <option name="CUSTOM_RULESET_PATH" value="/home/v/www/doc_gepard2" />
+    <option name="SHOW_SNIFF_NAMES" value="true" />
+  </inspection_tool>
+</inspections>
