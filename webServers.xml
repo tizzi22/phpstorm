@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="355446e5-f8b1-4de4-bd54-d28ec1c598c2" name="TEST 5 distriread" url="http://172.16.2.40">
+        <fileTransfer host="172.16.2.40" port="22" rootFolder="/data/projects/distriread" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="c9baeb22-ac34-42bc-84d5-d2f902621b44" name="localhost" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
