@@ -148,6 +148,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="ec62feea-4259-4beb-8d20-a12a82f87f8d" name="docker default" url="http://172.100.0.205">
+        <fileTransfer host="172.100.0.205" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
