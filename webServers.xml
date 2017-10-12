@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="355446e5-f8b1-4de4-bd54-d28ec1c598c2" name="TEST 5 distriread" url="http://172.16.2.40">
-        <fileTransfer host="172.16.2.40" port="22" rootFolder="/data/projects/distriread" accessType="SFTP">
+        <fileTransfer host="172.16.2.40" port="22" rootFolder="/data/projects/distriread" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
@@ -29,7 +29,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="05beb637-2906-4237-9189-6963036c6a81" name="BINTIME 5.6" url="">
-        <fileTransfer host="172.16.2.40" port="22" accessType="SFTP">
+        <fileTransfer host="172.16.2.40" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" />
           </advancedOptions>
@@ -109,7 +109,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9e69ea17-b971-4fc4-ab09-dd534f2c6c24" name="BINTIME 7.1" url="http://172.16.2.41">
-        <fileTransfer host="172.16.2.41" port="22" accessType="SFTP">
+        <fileTransfer host="172.16.2.41" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
