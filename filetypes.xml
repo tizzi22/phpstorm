@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="yiic_debug" type="PLAIN_TEXT" />
       <mapping pattern="default_bashrc" type="PLAIN_TEXT" />
+      <mapping pattern="echo" type="PLAIN_TEXT" />
       <mapping pattern="erp_bash_aliases" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
