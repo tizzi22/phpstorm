@@ -4,6 +4,7 @@
       <MessDetectorConfiguration />
     </phpmd_settings>
   </component>
+  <component name="PhpAutoImport" prepend_global_functions_and_constants="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/www/gepard2/vendor/bin/phpcs" />
@@ -12,18 +13,18 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="/usr/bin/php" id="69d022d8-d9de-4944-b1f6-0f6dda12131e" name="php7.0.12" debugger_id="php.debugger.XDebug" />
-      <interpreter home="sftp://root@172.16.238.11:22/usr/bin/php" id="b5790f2f-9120-42d1-94e9-42122f45b359" name="docker PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="5a1f1ec0-b7d6-412b-8a8a-ac7af0eaa2e0" WEB_SERVER_CONFIG_NAME="docker" HOST="172.16.238.11" PORT="22" ANONYMOUS="false" USERNAME="root" PASSWORD="" PRIVATE_KEY_FILE="$USER_HOME$/.ssh/id_rsa" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/root/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="sftp://root@172.100.0.201:22/usr/bin/php" id="b5790f2f-9120-42d1-94e9-42122f45b359" name="docker default 7.1" debugger_id="php.debugger.XDebug">
+        <remote_data WEB_SERVER_CONFIG_ID="07900347-bd79-4e61-87c4-19082bd77f88" WEB_SERVER_CONFIG_NAME="docker php7.1" WEB_SERVER_CREDENTIALS_ID="sftp://root@172.100.0.201:22" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/root/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="sftp://ubuntu@localhost:2222/usr/bin/php" id="c7f82100-6828-4177-a4f2-d3a5bf2504a0" name="AWS PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="2a378098-b7c5-4da7-9e77-7394dd9e310d" WEB_SERVER_CONFIG_NAME="ERP AWS fpm02" HOST="localhost" PORT="2222" ANONYMOUS="false" USERNAME="ubuntu" PASSWORD="" PRIVATE_KEY_FILE="$USER_HOME$/.ssh/odyssey-pem.pem" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/ubuntu/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data WEB_SERVER_CONFIG_ID="2a378098-b7c5-4da7-9e77-7394dd9e310d" WEB_SERVER_CONFIG_NAME="ERP AWS fpm02" WEB_SERVER_CREDENTIALS_ID="sftp://ubuntu@localhost:2222" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/ubuntu/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="AWS PHP 5.6">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php5.6" path_separator=":" remote_host="127.0.0.1 53209 22" version="5.6.25-1+deb.sury.org~trusty+1">
+        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php5.6" path_separator=":" remote_host="127.0.0.1" version="5.6.25-1+deb.sury.org~trusty+1">
           <additional_php_ini>/etc/php/5.6/cli/conf.d/10-mysqlnd.ini, /etc/php/5.6/cli/conf.d/10-opcache.ini, /etc/php/5.6/cli/conf.d/10-pdo.ini, /etc/php/5.6/cli/conf.d/15-xml.ini, /etc/php/5.6/cli/conf.d/20-amqp.ini, /etc/php/5.6/cli/conf.d/20-bcmath.ini, /etc/php/5.6/cli/conf.d/20-bz2.ini, /etc/php/5.6/cli/conf.d/20-calendar.ini, /etc/php/5.6/cli/conf.d/20-ctype.ini, /etc/php/5.6/cli/conf.d/20-curl.ini, /etc/php/5.6/cli/conf.d/20-dba.ini, /etc/php/5.6/cli/conf.d/20-dom.ini, /etc/php/5.6/cli/conf.d/20-enchant.ini, /etc/php/5.6/cli/conf.d/20-exif.ini, /etc/php/5.6/cli/conf.d/20-fileinfo.ini, /etc/php/5.6/cli/conf.d/20-ftp.ini, /etc/php/5.6/cli/conf.d/20-gd.ini, /etc/php/5.6/cli/conf.d/20-gettext.ini, /etc/php/5.6/cli/conf.d/20-gmp.ini, /etc/php/5.6/cli/conf.d/20-iconv.ini, /etc/php/5.6/cli/conf.d/20-igbinary.ini, /etc/php/5.6/cli/conf.d/20-imagick.ini, /etc/php/5.6/cli/conf.d/20-imap.ini, /etc/php/5.6/cli/conf.d/20-intl.ini, /etc/php/5.6/cli/conf.d/20-json.ini, /etc/php/5.6/cli/conf.d/20-ldap.ini, /etc/php/5.6/cli/conf.d/20-mbstring.ini, /etc/php/5.6/cli/conf.d/20-mcrypt.ini, /etc/php/5.6/cli/conf.d/20-mongo.ini, /etc/php/5.6/cli/conf.d/20-mongodb.ini, /etc/php/5.6/cli/conf.d/20-mysql.ini, /etc/php/5.6/cli/conf.d/20-mysqli.ini, /etc/php/5.6/cli/conf.d/20-pdo_mysql.ini, /etc/php/5.6/cli/conf.d/20-phar.ini, /etc/php/5.6/cli/conf.d/20-posix.ini, /etc/php/5.6/cli/conf.d/20-readline.ini, /etc/php/5.6/cli/conf.d/20-redis.ini, /etc/php/5.6/cli/conf.d/20-shmop.ini, /etc/php/5.6/cli/conf.d/20-simplexml.ini, /etc/php/5.6/cli/conf.d/20-soap.ini, /etc/php/5.6/cli/conf.d/20-sockets.ini, /etc/php/5.6/cli/conf.d/20-ssh2.ini, /etc/php/5.6/cli/conf.d/20-sysvmsg.ini, /etc/php/5.6/cli/conf.d/20-sysvsem.ini, /etc/php/5.6/cli/conf.d/20-sysvshm.ini, /etc/php/5.6/cli/conf.d/20-tidy.ini, /etc/php/5.6/cli/conf.d/20-tokenizer.ini, /etc/php/5.6/cli/conf.d/20-wddx.ini, /etc/php/5.6/cli/conf.d/20-xdebug.ini, /etc/php/5.6/cli/conf.d/20-xhprof.ini, /etc/php/5.6/cli/conf.d/20-xmlreader.ini, /etc/php/5.6/cli/conf.d/20-xmlrpc.ini, /etc/php/5.6/cli/conf.d/20-xmlwriter.ini, /etc/php/5.6/cli/conf.d/20-xsl.ini, /etc/php/5.6/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/5.6/cli/php.ini</configuration_file>
           <configuration_options>
@@ -765,35 +766,38 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="docker PHP 5.6">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5.6" path_separator=":" remote_host="172.16.238.1 37574 22" version="5.6.29-1+deb.sury.org~xenial+1">
-          <additional_php_ini>/etc/php/5.6/cli/conf.d/000-docker-php.ini, /etc/php/5.6/cli/conf.d/10-opcache.ini, /etc/php/5.6/cli/conf.d/10-pdo.ini, /etc/php/5.6/cli/conf.d/15-xml.ini, /etc/php/5.6/cli/conf.d/20-amqp.ini, /etc/php/5.6/cli/conf.d/20-bcmath.ini, /etc/php/5.6/cli/conf.d/20-calendar.ini, /etc/php/5.6/cli/conf.d/20-ctype.ini, /etc/php/5.6/cli/conf.d/20-curl.ini, /etc/php/5.6/cli/conf.d/20-dom.ini, /etc/php/5.6/cli/conf.d/20-exif.ini, /etc/php/5.6/cli/conf.d/20-fileinfo.ini, /etc/php/5.6/cli/conf.d/20-ftp.ini, /etc/php/5.6/cli/conf.d/20-gd.ini, /etc/php/5.6/cli/conf.d/20-gettext.ini, /etc/php/5.6/cli/conf.d/20-iconv.ini, /etc/php/5.6/cli/conf.d/20-igbinary.ini, /etc/php/5.6/cli/conf.d/20-intl.ini, /etc/php/5.6/cli/conf.d/20-json.ini, /etc/php/5.6/cli/conf.d/20-mbstring.ini, /etc/php/5.6/cli/conf.d/20-mcrypt.ini, /etc/php/5.6/cli/conf.d/20-mongo.ini, /etc/php/5.6/cli/conf.d/20-phar.ini, /etc/php/5.6/cli/conf.d/20-posix.ini, /etc/php/5.6/cli/conf.d/20-readline.ini, /etc/php/5.6/cli/conf.d/20-redis.ini, /etc/php/5.6/cli/conf.d/20-shmop.ini, /etc/php/5.6/cli/conf.d/20-simplexml.ini, /etc/php/5.6/cli/conf.d/20-soap.ini, /etc/php/5.6/cli/conf.d/20-sockets.ini, /etc/php/5.6/cli/conf.d/20-ssh2.ini, /etc/php/5.6/cli/conf.d/20-sysvmsg.ini, /etc/php/5.6/cli/conf.d/20-sysvsem.ini, /etc/php/5.6/cli/conf.d/20-sysvshm.ini, /etc/php/5.6/cli/conf.d/20-tokenizer.ini, /etc/php/5.6/cli/conf.d/20-wddx.ini, /etc/php/5.6/cli/conf.d/20-xdebug.ini, /etc/php/5.6/cli/conf.d/20-xhprof.ini, /etc/php/5.6/cli/conf.d/20-xmlreader.ini, /etc/php/5.6/cli/conf.d/20-xmlwriter.ini, /etc/php/5.6/cli/conf.d/20-xsl.ini, /etc/php/5.6/cli/conf.d/20-zip.ini, /etc/php/5.6/cli/conf.d/99-xdebug.ini</additional_php_ini>
-          <configuration_file>/etc/php/5.6/cli/php.ini</configuration_file>
+      <interpreter name="docker default 7.1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.1" path_separator=":" remote_host="172.100.0.1" version="7.1.10-1+ubuntu16.04.1+deb.sury.org+1">
+          <additional_php_ini>/etc/php/7.1/cli/conf.d/000-docker-php.ini, /etc/php/7.1/cli/conf.d/10-opcache.ini, /etc/php/7.1/cli/conf.d/10-pdo.ini, /etc/php/7.1/cli/conf.d/15-xml.ini, /etc/php/7.1/cli/conf.d/20-amqp.ini, /etc/php/7.1/cli/conf.d/20-bcmath.ini, /etc/php/7.1/cli/conf.d/20-calendar.ini, /etc/php/7.1/cli/conf.d/20-ctype.ini, /etc/php/7.1/cli/conf.d/20-curl.ini, /etc/php/7.1/cli/conf.d/20-dom.ini, /etc/php/7.1/cli/conf.d/20-exif.ini, /etc/php/7.1/cli/conf.d/20-fileinfo.ini, /etc/php/7.1/cli/conf.d/20-ftp.ini, /etc/php/7.1/cli/conf.d/20-gd.ini, /etc/php/7.1/cli/conf.d/20-gettext.ini, /etc/php/7.1/cli/conf.d/20-iconv.ini, /etc/php/7.1/cli/conf.d/20-igbinary.ini, /etc/php/7.1/cli/conf.d/20-intl.ini, /etc/php/7.1/cli/conf.d/20-json.ini, /etc/php/7.1/cli/conf.d/20-mbstring.ini, /etc/php/7.1/cli/conf.d/20-mcrypt.ini, /etc/php/7.1/cli/conf.d/20-mongodb.ini, /etc/php/7.1/cli/conf.d/20-phar.ini, /etc/php/7.1/cli/conf.d/20-posix.ini, /etc/php/7.1/cli/conf.d/20-readline.ini, /etc/php/7.1/cli/conf.d/20-redis.ini, /etc/php/7.1/cli/conf.d/20-shmop.ini, /etc/php/7.1/cli/conf.d/20-simplexml.ini, /etc/php/7.1/cli/conf.d/20-soap.ini, /etc/php/7.1/cli/conf.d/20-sockets.ini, /etc/php/7.1/cli/conf.d/20-ssh2.ini, /etc/php/7.1/cli/conf.d/20-sysvmsg.ini, /etc/php/7.1/cli/conf.d/20-sysvsem.ini, /etc/php/7.1/cli/conf.d/20-sysvshm.ini, /etc/php/7.1/cli/conf.d/20-tokenizer.ini, /etc/php/7.1/cli/conf.d/20-wddx.ini, /etc/php/7.1/cli/conf.d/20-xdebug.ini, /etc/php/7.1/cli/conf.d/20-xmlreader.ini, /etc/php/7.1/cli/conf.d/20-xmlwriter.ini, /etc/php/7.1/cli/conf.d/20-xsl.ini, /etc/php/7.1/cli/conf.d/20-zip.ini, /etc/php/7.1/cli/conf.d/99-xdebug.ini</additional_php_ini>
+          <configuration_file>/etc/php/7.1/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="" />
-            <configuration_option name="always_populate_raw_post_data" value="0" />
             <configuration_option name="amqp.auto_ack" value="0" />
+            <configuration_option name="amqp.cacert" value="" />
+            <configuration_option name="amqp.cert" value="" />
             <configuration_option name="amqp.channel_max" value="256" />
             <configuration_option name="amqp.connect_timeout" value="0" />
             <configuration_option name="amqp.frame_max" value="131072" />
             <configuration_option name="amqp.heartbeat" value="0" />
             <configuration_option name="amqp.host" value="localhost" />
+            <configuration_option name="amqp.key" value="" />
             <configuration_option name="amqp.login" value="guest" />
             <configuration_option name="amqp.password" value="guest" />
             <configuration_option name="amqp.port" value="5672" />
             <configuration_option name="amqp.prefetch_count" value="3" />
             <configuration_option name="amqp.read_timeout" value="0" />
             <configuration_option name="amqp.timeout" value="" />
+            <configuration_option name="amqp.verify" value="1" />
             <configuration_option name="amqp.vhost" value="/" />
             <configuration_option name="amqp.write_timeout" value="0" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
-            <configuration_option name="asp_tags" value="" />
             <configuration_option name="assert.active" value="1" />
             <configuration_option name="assert.bail" value="0" />
             <configuration_option name="assert.callback" value="" />
+            <configuration_option name="assert.exception" value="0" />
             <configuration_option name="assert.quiet_eval" value="0" />
             <configuration_option name="assert.warning" value="1" />
             <configuration_option name="auto_append_file" value="" />
@@ -832,14 +836,14 @@
             <configuration_option name="exif.decode_unicode_motorola" value="UCS-2BE" />
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
-            <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/lib/php/20131226" />
+            <configuration_option name="extension_dir" value="/usr/lib/php/20160303" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
             <configuration_option name="from" value="" />
-            <configuration_option name="gd.jpeg_ignore_warning" value="0" />
+            <configuration_option name="gd.jpeg_ignore_warning" value="1" />
+            <configuration_option name="hard_timeout" value="2" />
             <configuration_option name="highlight.comment" value="#FF8000" />
             <configuration_option name="highlight.default" value="#0000BB" />
             <configuration_option name="highlight.html" value="#000000" />
@@ -883,15 +887,7 @@
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="-1" />
-            <configuration_option name="mongo.allow_empty_keys" value="0" />
-            <configuration_option name="mongo.chunk_size" value="261120" />
-            <configuration_option name="mongo.cmd" value="$" />
-            <configuration_option name="mongo.default_host" value="localhost" />
-            <configuration_option name="mongo.default_port" value="27017" />
-            <configuration_option name="mongo.is_master_interval" value="15" />
-            <configuration_option name="mongo.long_as_object" value="0" />
-            <configuration_option name="mongo.native_long" value="1" />
-            <configuration_option name="mongo.ping_interval" value="5" />
+            <configuration_option name="mongodb.debug" value="" />
             <configuration_option name="opcache.blacklist_filename" value="" />
             <configuration_option name="opcache.consistency_checks" value="0" />
             <configuration_option name="opcache.dups_fix" value="0" />
@@ -900,17 +896,21 @@
             <configuration_option name="opcache.enable_file_override" value="0" />
             <configuration_option name="opcache.error_log" value="" />
             <configuration_option name="opcache.fast_shutdown" value="1" />
+            <configuration_option name="opcache.file_cache" value="" />
+            <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
+            <configuration_option name="opcache.file_cache_only" value="0" />
             <configuration_option name="opcache.file_update_protection" value="2" />
             <configuration_option name="opcache.force_restart_timeout" value="300" />
+            <configuration_option name="opcache.huge_code_pages" value="0" />
             <configuration_option name="opcache.inherited_hack" value="1" />
             <configuration_option name="opcache.interned_strings_buffer" value="8" />
-            <configuration_option name="opcache.load_comments" value="1" />
             <configuration_option name="opcache.lockfile_path" value="/tmp" />
             <configuration_option name="opcache.log_verbosity_level" value="1" />
             <configuration_option name="opcache.max_accelerated_files" value="4000" />
             <configuration_option name="opcache.max_file_size" value="0" />
             <configuration_option name="opcache.max_wasted_percentage" value="5" />
             <configuration_option name="opcache.memory_consumption" value="128" />
+            <configuration_option name="opcache.opt_debug_level" value="0" />
             <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
             <configuration_option name="opcache.preferred_memory_model" value="" />
             <configuration_option name="opcache.protect_memory" value="0" />
@@ -929,13 +929,14 @@
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
+            <configuration_option name="pcre.jit" value="1" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="16K" />
+            <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="redis.arrays.autorehash" value="" />
             <configuration_option name="redis.arrays.functions" value="" />
@@ -952,7 +953,7 @@
             <configuration_option name="request_order" value="GP" />
             <configuration_option name="sendmail_from" value="" />
             <configuration_option name="sendmail_path" value="/usr/sbin/sendmail -t -i " />
-            <configuration_option name="serialize_precision" value="17" />
+            <configuration_option name="serialize_precision" value="-1" />
             <configuration_option name="session.auto_start" value="0" />
             <configuration_option name="session.cache_expire" value="180" />
             <configuration_option name="session.cache_limiter" value="nocache" />
@@ -961,18 +962,19 @@
             <configuration_option name="session.cookie_lifetime" value="0" />
             <configuration_option name="session.cookie_path" value="/" />
             <configuration_option name="session.cookie_secure" value="" />
-            <configuration_option name="session.entropy_file" value="/dev/urandom" />
-            <configuration_option name="session.entropy_length" value="32" />
             <configuration_option name="session.gc_divisor" value="1000" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
             <configuration_option name="session.gc_probability" value="0" />
-            <configuration_option name="session.hash_bits_per_character" value="5" />
-            <configuration_option name="session.hash_function" value="0" />
+            <configuration_option name="session.lazy_write" value="1" />
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
             <configuration_option name="session.save_path" value="/var/lib/php/sessions" />
             <configuration_option name="session.serialize_handler" value="php" />
+            <configuration_option name="session.sid_bits_per_character" value="5" />
+            <configuration_option name="session.sid_length" value="26" />
+            <configuration_option name="session.trans_sid_hosts" value="" />
+            <configuration_option name="session.trans_sid_tags" value="a=href,area=href,frame=src,form=" />
             <configuration_option name="session.upload_progress.cleanup" value="1" />
             <configuration_option name="session.upload_progress.enabled" value="1" />
             <configuration_option name="session.upload_progress.freq" value="1%" />
@@ -996,7 +998,8 @@
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="100M" />
             <configuration_option name="upload_tmp_dir" value="" />
-            <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
+            <configuration_option name="url_rewriter.hosts" value="" />
+            <configuration_option name="url_rewriter.tags" value="form=" />
             <configuration_option name="user_agent" value="" />
             <configuration_option name="user_dir" value="" />
             <configuration_option name="user_ini.cache_ttl" value="300" />
@@ -1062,20 +1065,20 @@
             <configuration_option name="xdebug.var_display_max_children" value="128" />
             <configuration_option name="xdebug.var_display_max_data" value="512" />
             <configuration_option name="xdebug.var_display_max_depth" value="3" />
-            <configuration_option name="xhprof.output_dir" value="" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
-            <configuration_option name="xsl.security_prefs" value="44" />
+            <configuration_option name="zend.assertions" value="-1" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
             <configuration_option name="zend.script_encoding" value="" />
+            <configuration_option name="zend.signal_check" value="0" />
             <configuration_option name="zlib.output_compression" value="" />
             <configuration_option name="zlib.output_compression_level" value="-1" />
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.0">
+            <debugger_info debugger="xdebug" debugger_version="2.5.5">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -1094,7 +1097,6 @@
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
-            <extension name="ereg" />
             <extension name="exif" />
             <extension name="fileinfo" />
             <extension name="filter" />
@@ -1109,8 +1111,7 @@
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
-            <extension name="mhash" />
-            <extension name="mongo" />
+            <extension name="mongodb" />
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
@@ -1129,7 +1130,6 @@
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xdebug" />
-            <extension name="xhprof" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
@@ -1146,7 +1146,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="b5790f2f-9120-42d1-94e9-42122f45b359" load_method="CUSTOM_LOADER" custom_loader_path="/data/erp/www/protected/vendor/bin/phpunit" phpunit_phar_path="/home/v/www/phpunit.phar" />
+      <phpunit_by_interpreter interpreter_id="b5790f2f-9120-42d1-94e9-42122f45b359" load_method="CUSTOM_LOADER" custom_loader_path="/data/yii2/vendor/autoload.php" phpunit_phar_path="/data/phpunit_6.1.4.phar" />
     </phpunit_settings>
   </component>
 </application>

@@ -48,4 +48,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/deployer" />
     </exec>
   </tool>
+  <tool name="deploy PIM bintime" description="deploy PIM bintime" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="./vendor/bin/dep" />
+      <option name="PARAMETERS" value=" deploy testing -v" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/deployer" />
+    </exec>
+  </tool>
 </toolSet>
