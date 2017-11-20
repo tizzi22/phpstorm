@@ -33,7 +33,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="/usr/local/bin/scss" />
-      <option name="scopeName" value="Changed Files" />
+      <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
@@ -52,16 +52,16 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="/usr/local/bin/sass" />
-      <option name="scopeName" value="Changed Files" />
+      <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileNameWithoutAllExtensions$.js --compress --mangle --lint --output $FileNameWithoutAllExtensions$.min.js" />
+      <option name="arguments" value="$FileNameWithoutExtension$.js --compress --mangle --lint --output $FileNameWithoutExtension$.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
-      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="UglifyJS" />
@@ -71,7 +71,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/Programs/node_modules/uglify-js/bin/uglifyjs" />
-      <option name="scopeName" value="Changed Files" />
+      <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
