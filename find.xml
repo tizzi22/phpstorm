@@ -3,7 +3,9 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
     <option name="defaultScopeName" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
+    <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
     <recentFileMasks>
       <mask>*.xml</mask>
