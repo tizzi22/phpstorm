@@ -1,14 +1,14 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
-    <option name="defaultScopeName" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '[yii2] - .../vendor/gepard2-extension/core-repository/src'" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
-      <mask>*.xml</mask>
       <mask>*.java</mask>
       <mask>*.as</mask>
       <mask>*.mxml</mask>
@@ -26,18 +26,19 @@
       <mask>*.cs</mask>
       <mask>*.css</mask>
       <mask>*.tm</mask>
-      <mask>*.p</mask>
-      <mask>*.ph</mask>
       <mask>*.tmp</mask>
-      <mask>*.php</mask>
       <mask>*.tpl</mask>
       <mask>*.tp</mask>
       <mask>*.t</mask>
-      <mask>*.</mask>
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
