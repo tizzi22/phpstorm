@@ -1,5 +1,6 @@
 <templateSet group="JavaScript">
-  <template name="coi" value="console.info('$buf$',$buf$);" description="console.info();" toReformat="false" toShortenFQNames="true">
+  <template name="coi" value="console.info('$buf_text$',$buf$);" description="console.info();" toReformat="false" toShortenFQNames="true">
+    <variable name="buf_text" expression="snakeCase(buf)" defaultValue="" alwaysStopAt="true" />
     <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
