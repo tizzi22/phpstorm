@@ -1,140 +1,140 @@
 <templateSet group="PHP">
-  <template name="prt" value="echo&quot;&lt;pre&gt;-&gt; &quot;;print_r($buf$);echo&quot;&lt;/pre&gt;&quot;;" description="print_r" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="prt" value="echo&quot;&lt;pre&gt;-&gt; &quot;;print_r($buf$);echo&quot;&lt;/pre&gt;&quot;;" description="print_r" toReformat="false" toShortenFQNames="true">
     <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dmb" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$', false, true);" description="varDumperCasper button" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="dmb" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$', false, true);" description="varDumperCasper button" toReformat="false" toShortenFQNames="true">
     <variable name="ITERABLE" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITERABLE_COPY" expression="snakeCase(ITERABLE)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ya" value="\Yii::app()-&gt;$END$" description="Yii::app()-&gt;" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="ya" value="\Yii::app()-&gt;$END$" description="Yii::app()-&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="yacu" value="\Yii::app()-&gt;createUrl($END$);" description="Yii::app()-&gt;createUrl();" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="yacu" value="\Yii::app()-&gt;createUrl($END$);" description="Yii::app()-&gt;createUrl();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="cc" value="/** $END$ */" description="/** */" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="cc" value="/** $END$ */" description="/** */" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="yt" value="Yii::t('$END$', '$END$');" description="Yii::t('', '');" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="yt" value="Yii::t('$END$', '$END$');" description="Yii::t('', '');" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ear" value="'$END$'=&gt;''," description="''=&gt;''" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="ear" value="'$END$'=&gt;''," description="''=&gt;''" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="dmd" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$', true);" description="varDumperCasper  die" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="dmd" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$', true);" description="varDumperCasper  die" toReformat="false" toShortenFQNames="true">
     <variable name="ITERABLE" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITERABLE_COPY" expression="snakeCase(ITERABLE)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ph" value="?&gt;$END$&lt;?php" description="?&gt;&lt;?php" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="ph" value="?&gt;$END$&lt;?php" description="?&gt;&lt;?php" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="prtd" value="echo&quot;&lt;pre&gt;-&gt; &quot;;print_r($buf$);echo&quot;&lt;/pre&gt;&quot;;die;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="prtd" value="echo&quot;&lt;pre&gt;-&gt; &quot;;print_r($buf$);echo&quot;&lt;/pre&gt;&quot;;die;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="buf" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
     </context>
   </template>
-  <template name="dm" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$');" description="varDumperCasper" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="dm" value="&#10;\varDumperCasper::dump($ITERABLE$, '$ITERABLE_COPY$');" description="varDumperCasper" toReformat="false" toShortenFQNames="true">
     <variable name="ITERABLE" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITERABLE_COPY" expression="snakeCase(ITERABLE)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="yaa" value="\Yii::$app-&gt;$END$" description="\Yii::$app-&gt;$END$" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="yaa" value="\Yii::$app-&gt;$END$" description="\Yii::$app-&gt;$END$" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="TD" value="//TODO: $END$" description="// TODO:" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="TD" value="//TODO: $END$" description="// TODO:" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="yac" value="\Yii::$container-&gt;$END$" description="\Yii::$container-&gt;$END$" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="yac" value="\Yii::$container-&gt;$END$" description="\Yii::$container-&gt;$END$" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="fore" value="foreach ($ITERABLE$ as $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="fore" value="foreach ($ITERABLE$ as $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
     <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="forek" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="forek" value="foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$) {&#10;    $END$&#10;}" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
     <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_KEY" expression="phpSuggestVariableName()" defaultValue="&quot;$index&quot;" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="thr" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="thr" value="throw new $END$" description="throw new" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="rqr" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="rqr" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="rqro" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="rqro" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="inc" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="inc" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="pubf" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="pubf" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="pubsf" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="pubsf" value="public static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prof" value="protected function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="prof" value="protected function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prosf" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="prosf" value="protected static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prisf" value="private static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="prisf" value="private static function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
