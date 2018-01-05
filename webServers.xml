@@ -148,6 +148,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="35113e0e-d00d-4c5c-840a-5c0b0fdcff0a" name="HP prod fpm1" url="http://develop">
+        <fileTransfer host="52.215.49.85" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" rootFolder="/home/apache" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
