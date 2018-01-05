@@ -103,7 +103,7 @@
       <webServer id="37dbfc1f-8e53-401e-af76-6e187c78d6a8" name="IWR T sentia" url="https://test-iwr.centralpoint.io">
         <fileTransfer host="10.128.38.203" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="1000" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
