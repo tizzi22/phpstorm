@@ -156,6 +156,22 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="c2f28de9-b4d9-4c1a-b7c7-b312e641e202" name="HP prod fpm2" url="http://develop">
+        <fileTransfer host="52.212.164.195" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" rootFolder="/home/apache" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b064b63d-baea-42bd-931d-0f6afc2cc4e2" name="HP elastic" url="">
+        <fileTransfer host="52.215.73.83" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
