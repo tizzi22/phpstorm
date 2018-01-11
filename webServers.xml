@@ -124,8 +124,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="07900347-bd79-4e61-87c4-19082bd77f88" name="docker php7.1" url="http://172.100.0.201">
-        <fileTransfer host="172.100.0.201" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+      <webServer id="07900347-bd79-4e61-87c4-19082bd77f88" name="docker php7.2" url="http://172.100.0.203">
+        <fileTransfer host="172.100.0.203" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
