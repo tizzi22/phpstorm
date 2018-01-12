@@ -1,0 +1,6 @@
+<application>
+  <component name="GitToolBoxAppSettings">
+    <option name="presentationMode" value="arrowHeads" />
+    <option name="projectViewStatusCustomColor" value="true" />
+  </component>
+</application>
