@@ -85,7 +85,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9e69ea17-b971-4fc4-ab09-dd534f2c6c24" name="BINTIME 7.1" url="http://172.16.2.41">
-        <fileTransfer host="172.16.2.41" port="22" accessType="SFTP" authAgent="true">
+        <fileTransfer host="172.16.2.41" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
