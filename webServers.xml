@@ -31,7 +31,7 @@
       <webServer id="05beb637-2906-4237-9189-6963036c6a81" name="BINTIME 5.6" url="">
         <fileTransfer host="172.16.2.40" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
@@ -87,7 +87,7 @@
       <webServer id="9e69ea17-b971-4fc4-ab09-dd534f2c6c24" name="BINTIME 7.1" url="http://172.16.2.41">
         <fileTransfer host="172.16.2.41" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
@@ -119,7 +119,7 @@
       <webServer id="ef550d2c-e512-44eb-86c6-d002bb577fdd" name="BINTIME 7.1 (test user)" url="http://172.16.2.41">
         <fileTransfer host="172.16.2.41" port="22" rootFolder="/data/projects/satis" accessType="SFTP">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
