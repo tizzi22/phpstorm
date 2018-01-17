@@ -1,5 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Language Injection/Inject Language/Reference" />
+    <ignoreAction name="PHP/Replace quotes" />
   </component>
 </application>
