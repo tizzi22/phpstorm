@@ -31,7 +31,7 @@
       <webServer id="05beb637-2906-4237-9189-6963036c6a81" name="BINTIME 5.6" url="">
         <fileTransfer host="172.16.2.40" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
@@ -60,14 +60,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="39b4086e-3a24-4f8d-bd52-e97ee1c33c81" name="docker msh php" url="http://172.100.0.203">
-        <fileTransfer host="172.100.0.203" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/msh" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="eeb33d00-3253-4de1-9be1-549355951898" name="AWS ERP fpmpreprod" url="http://develop">
         <fileTransfer host="localhost" port="2223" privateKey="$USER_HOME$/.ssh/odyssey-pem.pem" rootFolder="/data/erp" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -76,18 +68,10 @@
           <option name="port" value="2223" />
         </fileTransfer>
       </webServer>
-      <webServer id="10731ef1-853c-44f2-bb47-d002e4515360" name="mongo" url="http://develop">
-        <fileTransfer host="localhost" port="2224" privateKey="$USER_HOME$/.ssh/odyssey-pem.pem" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="2224" />
-        </fileTransfer>
-      </webServer>
       <webServer id="9e69ea17-b971-4fc4-ab09-dd534f2c6c24" name="BINTIME 7.1" url="http://172.16.2.41">
         <fileTransfer host="172.16.2.41" port="22" accessType="SFTP" authAgent="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
@@ -119,29 +103,13 @@
       <webServer id="ef550d2c-e512-44eb-86c6-d002bb577fdd" name="BINTIME 7.1 (test user)" url="http://172.16.2.41">
         <fileTransfer host="172.16.2.41" port="22" rootFolder="/data/projects/satis" accessType="SFTP">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="5000" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="07900347-bd79-4e61-87c4-19082bd77f88" name="docker php7.2" url="http://172.100.0.203">
         <fileTransfer host="172.100.0.203" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="7163e449-0d0b-4fc7-8894-588f5779a83c" name="decker redis" url="http://172.100.0.30">
-        <fileTransfer host="172.100.0.30" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="3279b715-da7f-4607-88a3-112b0a872e91" name="docker mongo" url="http://172.100.0.10">
-        <fileTransfer host="172.100.0.10" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
