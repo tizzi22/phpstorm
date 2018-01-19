@@ -61,10 +61,10 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileNameWithoutAllExtensions$.js --compress --mangle --lint --output $FileNameWithoutAllExtensions$.min.js" />
+      <option name="arguments" value="$FileNameWithoutAllExtensions$.js --compress --mangle --lint --ecma 6 --output $FileNameWithoutAllExtensions$.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
-      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="UglifyJS" />
