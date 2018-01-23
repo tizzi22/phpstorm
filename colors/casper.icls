@@ -1,13 +1,13 @@
 <scheme name="casper" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.25" />
   <option name="LINE_SPACING" value="0.9" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
   <option name="CONSOLE_FONT_SIZE" value="13" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="CONSOLE_LIGATURES" value="true" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
