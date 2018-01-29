@@ -27,4 +27,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="satis build" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="ef550d2c-e512-44eb-86c6-d002bb577fdd">
+    <exec>
+      <option name="COMMAND" value="/data/projects/satis/build.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/data/projects/satis" />
+    </exec>
+  </tool>
 </toolSet>

@@ -35,7 +35,7 @@
       <option name="outputFromStdout" value="false" />
       <option name="program" value="scss" />
       <option name="runOnExternalChanges" value="true" />
-      <option name="scopeName" value="Changed Files" />
+      <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
@@ -55,13 +55,13 @@
       <option name="outputFromStdout" value="false" />
       <option name="program" value="sass" />
       <option name="runOnExternalChanges" value="true" />
-      <option name="scopeName" value="Changed Files" />
+      <option name="scopeName" value="Open Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileNameWithoutAllExtensions$.js --compress --mangle --lint --output $FileNameWithoutAllExtensions$.min.js" />
+      <option name="arguments" value="$FileNameWithoutAllExtensions$.js --compress --mangle --lint --ecma 6 --output $FileNameWithoutAllExtensions$.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="NEVER" />
