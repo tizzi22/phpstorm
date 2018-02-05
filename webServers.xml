@@ -148,6 +148,22 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="6a0cd8d1-9663-40cf-bd59-5e5d2250a7b4" name="casper" url="http://172.100.0.201">
+        <fileTransfer host="172.100.0.201" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ccd98739-71e0-444d-9033-d6137d5a908b" name="casper ssh" url="http://172.100.0.201">
+        <fileTransfer host="172.100.0.201" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
