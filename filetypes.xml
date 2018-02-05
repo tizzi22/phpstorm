@@ -10,7 +10,9 @@
       <mapping pattern="cron" type="PLAIN_TEXT" />
       <mapping pattern="default_bashrc" type="PLAIN_TEXT" />
       <mapping pattern="erp_bash_aliases" type="PLAIN_TEXT" />
+      <mapping ext="thursday20183" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
+      <mapping ext="thursday20175" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />

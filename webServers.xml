@@ -52,8 +52,8 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
-      <webServer id="5a1f1ec0-b7d6-412b-8a8a-ac7af0eaa2e0" name="docker php5.6" url="http://172.100.0.200">
-        <fileTransfer host="172.100.0.200" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+      <webServer id="5a1f1ec0-b7d6-412b-8a8a-ac7af0eaa2e0" name="DOCKER php5.6" url="http://172.100.0.200">
+        <fileTransfer host="172.100.0.200" port="22" rootFolder="/data" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
@@ -108,8 +108,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="07900347-bd79-4e61-87c4-19082bd77f88" name="docker php7.2" url="http://172.100.0.203">
-        <fileTransfer host="172.100.0.203" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
+      <webServer id="07900347-bd79-4e61-87c4-19082bd77f88" name="DOCKER php7.2" url="http://172.100.0.203">
+        <fileTransfer host="172.100.0.203" port="22" rootFolder="/data" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
           </advancedOptions>
@@ -140,23 +140,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="d5d5206c-1b45-4003-a4da-c2bbc0f4cd0d" name="docker php7.1" url="http://172.100.0.201">
-        <fileTransfer host="172.100.0.201" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="6a0cd8d1-9663-40cf-bd59-5e5d2250a7b4" name="casper" url="http://172.100.0.201">
-        <fileTransfer host="172.100.0.201" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="ccd98739-71e0-444d-9033-d6137d5a908b" name="casper ssh" url="http://172.100.0.201">
+      <webServer id="d5d5206c-1b45-4003-a4da-c2bbc0f4cd0d" name="DOCKER php7.1" url="http://172.100.0.201">
         <fileTransfer host="172.100.0.201" port="22" rootFolder="/data" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
