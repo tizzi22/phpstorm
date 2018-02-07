@@ -148,6 +148,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="53518424-4b64-4a1f-9792-8eea4fda6de6" name="DOCKER php7.1 root" url="http://172.100.0.201">
+        <fileTransfer host="172.100.0.201" port="22" rootFolder="/data" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
