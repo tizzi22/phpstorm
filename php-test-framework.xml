@@ -22,7 +22,7 @@
       <tool tool_name="PHPUnit">
         <cache>
           <versions>
-            <info id="interpreter-b5790f2f-9120-42d1-94e9-42122f45b359" version="6.4.4" />
+            <info id="interpreter-b10dd9f2-ef47-440b-af42-0ce864750ed2" version="6.5.5" />
           </versions>
         </cache>
       </tool>
