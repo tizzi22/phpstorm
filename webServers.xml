@@ -116,30 +116,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="35113e0e-d00d-4c5c-840a-5c0b0fdcff0a" name="HP prod fpm1" url="http://develop">
-        <fileTransfer host="52.215.49.85" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" rootFolder="/home/apache" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="c2f28de9-b4d9-4c1a-b7c7-b312e641e202" name="HP prod fpm2" url="http://develop">
-        <fileTransfer host="52.212.164.195" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" rootFolder="/home/apache" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="b064b63d-baea-42bd-931d-0f6afc2cc4e2" name="HP elastic" url="">
-        <fileTransfer host="52.215.73.83" port="22" privateKey="$USER_HOME$/.ssh/hpc.pem" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="d5d5206c-1b45-4003-a4da-c2bbc0f4cd0d" name="DOCKER php7.1" url="http://172.100.0.201">
         <fileTransfer host="172.100.0.201" port="22" rootFolder="/data" accessType="SFTP" authAgent="true">
           <advancedOptions>
