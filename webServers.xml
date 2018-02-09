@@ -156,6 +156,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="cc00766a-2118-4118-8824-cc5ae896657c" name="BINTIME 5.6 (test user)" url="http://172.16.2.40">
+        <fileTransfer host="172.16.2.40" port="22" rootFolder="/data/projects/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
