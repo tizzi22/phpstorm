@@ -76,30 +76,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="6916841a-1785-4618-bec7-a2757a557b31" name="BSP T sentia" url="https://test-iwr.centralpoint.io">
-        <fileTransfer host="10.128.38.201" port="22" accessType="SFTP" authAgent="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="37dbfc1f-8e53-401e-af76-6e187c78d6a8" name="IWR T sentia" url="https://test-iwr.centralpoint.io">
-        <fileTransfer host="10.128.38.203" port="22" accessType="SFTP" authAgent="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="1000" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="1131a081-c9e3-4a4f-ba05-5289b346602b" name="business-solutions.nl" url="http://business-solutions.nl">
-        <fileTransfer host="business-solutions.nl" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
       <webServer id="ef550d2c-e512-44eb-86c6-d002bb577fdd" name="BINTIME 7.1 (test user)" url="http://172.16.2.41">
         <fileTransfer host="172.16.2.41" port="22" rootFolder="/data/projects/" accessType="SFTP">
           <advancedOptions>
