@@ -1,6 +1,70 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="74091b67-2ea8-4830-aa51-d3d68b77205c" name="BINTIME cultura" url="http://172.16.2.45">
+        <fileTransfer host="172.16.2.45" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f21f1f1b-206a-4324-a7b8-07bba8f62fe1" name="BINTIME secur" url="http://172.16.2.44">
+        <fileTransfer host="172.16.2.44" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f484f408-c969-4543-90ca-a2be50f3dd59" name="BINTIME migros" url="http://172.16.2.42">
+        <fileTransfer host="172.16.2.42" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b675f6fd-90cc-4685-9f41-108a715164aa" name="BINTIME wallmart" url="http://172.16.2.43">
+        <fileTransfer host="172.16.2.43" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0d4520b7-7dbe-4673-bb0c-057f515e4767" name="BINTIME msh" url="http://172.16.2.35">
+        <fileTransfer host="172.16.2.35" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="44e1f2da-9723-4051-abe9-f2ed55a35744" name="Secur Prod" url="http://144.76.199.47">
+        <fileTransfer host="144.76.199.47" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="56ef0adc-5702-4b6f-a1e5-88bd244f47b2" name="BINTIME HP Syndicator" url="http://172.16.2.47">
+        <fileTransfer host="172.16.2.47" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d7a56bc0-88fd-4c23-b4c3-15d3c36e9735" name="Rakuten prod" url="http://52.191.211.81">
+        <fileTransfer host="52.191.211.81" port="22" privateKey="$USER_HOME$/.ssh/rakuten_rsa" rootFolder="/var/www" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="355446e5-f8b1-4de4-bd54-d28ec1c598c2" name="TEST 5 distriread" url="http://172.16.2.40">
         <fileTransfer host="172.16.2.40" port="22" rootFolder="/data/projects/distriread" accessType="SFTP" authAgent="true">
           <advancedOptions>
