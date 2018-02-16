@@ -180,6 +180,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="67b19548-2cb9-40b3-862b-b08aaa135ee2" name="BINTIME redis rabbit" url="http://172.16.2.33">
+        <fileTransfer host="172.16.2.33" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" muteSftpMessages="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
